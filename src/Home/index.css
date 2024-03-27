@@ -1,0 +1,93 @@
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 12px;
+  
+    width:90vw;
+   
+    align-items: center;
+
+}
+.firstCrad{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width:85vw;
+    margin: 12px;
+}
+.firstContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    border-style: solid;
+    width:35vw;
+    border-radius: 12px;
+
+}
+.secondContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    border-style: solid;
+    width:35vw;
+    border-radius: 12px;
+
+}
+.buttonStyle{
+    margin:12px;
+    border-style: none;
+    cursor: pointer;
+}
+.boldData{
+    font-weight: bold;
+}
+.italicData{
+    font-style: italic;
+}
+.underlineData{
+text-decoration: underline;
+
+}
+.numberData{
+    border-style: none;
+   margin: 12px;
+    width: 69px;
+}
+.colorData{
+    display: flex;
+    align-self: center;
+}
+@media only screen and (max-width: 768px) {
+    .firstCrad {
+        width: 90%;
+    }
+
+    .firstContainer, .secondContainer {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .firstCrad {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstContainer, .secondContainer {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 820px) and (max-height: 1180px) {
+    .firstCrad {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstContainer, .secondContainer {
+        width: 90%;
+    }
+}
+
